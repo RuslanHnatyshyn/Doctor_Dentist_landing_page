@@ -1,0 +1,692 @@
+@media (max-width:768px) {
+    .burger {
+      opacity: 1;
+    }
+    .burger span {
+      left: -22px;
+    }
+  }
+  @media (min-width: 480px) and (max-width: 992px) {
+    .langueges {
+      visibility: hidden;
+      width: 0px;
+    }
+    .link {
+      opacity: 0;
+      width: 10px;
+    }
+    #Tesla img {
+      width: 50px;
+      height: 52px;
+    }
+    .Nikola {
+      font-size: 23px;
+    }
+    .dentist {
+      font-size: 16.85px;
+    }
+    .phone {
+      font-size: 15px;
+      padding-top: 0px;
+    }
+    .head {
+      text-align: center;
+    }
+    .head h1 {
+      font-size: 28px;
+      line-height: 140%;
+      letter-spacing: 1.5px;
+      padding: 3px;
+   }
+   .head h2 {
+    font-size: 26.5px;
+    line-height: 90%;
+    margin-top: 5px;
+   }
+  .head h3 {
+    font-size: 17px;
+    line-height: 94%;
+    margin-top: 20px;
+   }
+  .button {
+    justify-content: center;
+    margin-top: 32px;
+    gap: 200px;
+   }
+  .button1 {
+    width: 120px;
+    height: 40px;
+    font-weight: 400px;
+    font-size: 12.7px;
+    line-height: 93.8%;
+    border-radius: 5.35px;
+   }
+  .button2 {
+    width: 120px;
+    height: 40px;
+    font-weight: 400px;
+    font-size: 12.7px;
+    line-height: 93.8%;
+    border-radius: 5.35px;
+   }
+  .container {
+    margin-top: 240px;
+    gap: 20px;
+    flex-wrap: wrap;
+   }
+  .lady {
+    position: absolute;
+    top: 474px;
+   }
+  .lady img {
+    width: 280px;
+    height: 230px;
+   }
+  .low_head {
+    margin-top: 40px;
+    text-align: center;
+   }
+  .low_head h2 {
+    font-size: 23px;
+    line-height: 90%;
+   }
+  .low_head p {
+    font-size: 12px;
+    line-height: 95%;
+   }
+   .flex-box {
+    grid-template-columns: auto auto;
+    grid-auto-flow: row;
+  }
+   .provide {
+    text-align: center;
+    font-size: 28px;
+   }
+   .provide span {
+    text-align: center;
+    font-size: 28px;
+   }
+  .services-body{
+     flex-direction: column;
+   }
+   .servisec-body-part-1 {
+    margin-top: 380px;
+    text-align: center;
+  }
+  .services-item-1:nth-child(2) {
+    margin-right: 0px;
+  }
+  .services-item-title-1 {
+    font-size: 20px;
+  }
+  .services-item-text-1 {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }
+  .servisec-body-part-2 {
+    text-align: center;
+    }
+    .services-item-2:nth-child(2) {
+      margin-left: 0px;
+    }
+    .services-item-title-2 {
+      font-size: 20px;
+      line-height: 135%;
+      margin-top: 50px;
+      padding-bottom: 5px;
+    }
+    .services-item-text-2 {
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+    }
+  .services-img {
+    position: relative;
+  }
+  .services-img img {
+    position: absolute;
+    top: -634px;
+    left: -95px;
+  }
+  .services-img::before {
+    content: "";
+      position: absolute;
+      left: -187px;
+      top: -720px;
+  }
+  .plus-1 {
+    position: absolute;
+    top: -703px;
+    left: 41px;
+  }
+  .plus-2 {
+    position: absolute;
+    top: -566px;
+    left: 129px;
+  }
+  .plus-3 {
+    position: absolute;
+    left: 41px;
+    bottom: 408px;
+  }
+  .plus-4 {
+    position: absolute;
+    top: -703px;
+    right: 66px;
+  }
+  .plus-5 {
+    position: absolute;
+    top: -566px;
+    right: 149px;
+    
+  }
+  .plus-6 {
+    position: absolute;
+    right: 62px;
+    bottom: 408px;
+    
+  }
+  .attention {
+    margin: 59px auto 88px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .attention img {
+    width: 105px;
+    height: 103px;
+  }
+  .attention span {
+    padding-left: 14px;
+    font-size: 18px;
+  }
+  .make {
+    width: auto;
+    height: auto;
+  }
+  .section-submit {
+    width: auto;
+    height: auto;
+  }
+  .section-header {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+  }
+  .section-submit p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .lower-input {
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .input-1 {
+    width: 233px;
+    height: 57px;
+  }
+  
+  .input-img {
+    width: 22.15px;
+    align-items: center;
+  }
+  .input-2 {
+    width: 233px;
+    height: 57px;
+    border-radius: 8px;
+  }
+  .input-button {
+    width: 233px;
+  }
+  .input-button button {
+    font-size: 19px;
+  }
+  .lower-photo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex: 30%;
+  }
+  .lower-footer {
+    display: flex;
+    height: auto;
+    margin: 65px 0;
+    flex-direction: column;
+  }
+  .lower-dentist {
+    margin-left: 15px;
+    margin-top: 51.5px;
+  }
+  .logo-tooth {
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+  .contacts-wrapper {
+    display: flex;
+    margin-top: 51.5px;
+    margin-left: 15px;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin: 0 auto;
+  }
+  .copyright1 {
+    margin-left: 192px;
+  }
+  }
+  @media (min-width: 480px) and (max-width: 700px) {
+    .flex-box {
+      grid-template-columns: auto;
+      grid-auto-flow: row;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .langueges {
+      visibility: hidden;
+      width: 0px;
+    }
+    .link {
+      opacity: 0;
+      width: 0px;
+    }
+    #Tesla {
+      width: 183px;
+      height: 39.16px;
+    }
+    #Tesla img {
+      width: 30.54px;
+      height: 33.88px;
+    }
+    .Nikola {
+      font-size: 16.69px;
+    }
+    .dentist {
+      font-size: 11.55px;
+      position: absolute;
+      top: 78px;
+    }
+    .phone {
+      font-size: 14px;
+      padding-top: 0px;
+    }
+    .head {
+      text-align: center;
+      width: 284px;
+      margin: 46.84px auto 10px auto;
+    }
+    .head h1 {
+      font-size: 22px;
+      line-height: 130%;
+      letter-spacing: 0.1em;
+      padding: 3px;
+   }
+   .head h2 {
+    font-size: 22px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    margin-top: 5px;
+   }
+  .head h3 {
+    font-family: RobotoRegular;
+    font-size: 12px;
+    line-height: 140%;
+    margin-top: 20px;
+   }
+   .container {
+    margin-top: 240px;
+    gap: 20px;
+    flex-wrap: wrap;
+   }
+   .button {
+    margin-top: 0px;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px ;
+   }
+   .button1 {
+    width: 100px;
+    height: 35px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 140%;
+    border-radius: 4.57px;
+    padding: 9.15px 20px;
+   }
+  .button2 {
+    width: 100px;
+    height: 35px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 140%;
+    border-radius: 4.57px;
+    padding: 9.15px 20px;
+   }
+   .lady {
+    position: absolute;
+    top: 442px;
+    left: 44px;
+   }
+  .lady img {
+    width: 258px;
+   }
+   .low_head {
+    margin-top: 40px;
+    text-align: center;
+   }
+  .low_head h2 {
+    font-size: 20px;
+    line-height: 140%;
+   }
+  .low_head p {
+    font-size: 12px;
+    line-height: 140%;
+   }
+   .flex-box {
+    grid-template-columns: auto;
+    grid-auto-flow: row;
+  }
+   .provide {
+    font-size: 20px;
+    margin-left: 50px;
+   }
+   .provide span {
+    text-align: center;
+    font-size: 20px;
+   }
+  .services-body{
+     flex-direction: column;
+   }
+   .servisec-body-part-1 {
+    margin-top: 285px;
+    text-align: center;
+  }
+  .services-item-1:nth-child(2) {
+    margin-right: 0px;
+  }
+  .services-item-title-1 {
+    font-size: 16px;
+  }
+  .services-item-text-1 {
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+  }
+  .servisec-body-part-2 {
+    text-align: center;
+    }
+    .services-item-2:nth-child(2) {
+      margin-left: 0px;
+    }
+    .services-item-title-2 {
+      font-size: 16px;
+      line-height: 135%;
+    }
+    .services-item-text-2 {
+      font-size: 12px;
+      line-height: 19px;
+      text-align: center;
+    }
+  .services-img {
+    position: relative;
+    height: auto;
+  }
+  .services-img img {
+    position: absolute;
+    top: -650px;
+    left: 18%;
+  }
+  .services-img::before {
+    content: "";
+      position: absolute;
+      left: -23px;
+      top: -720px;
+  }
+  .plus-1 {
+    position: absolute;
+    top: -682px;
+    left: 41px;
+  }
+  .plus-2 {
+    position: absolute;
+    top: -566px;
+    left: -9px;
+  }
+  .plus-3 {
+    position: absolute;
+    left: 41px;
+    bottom: 430px;
+  }
+  .plus-4 {
+    position: absolute;
+    top: -682px;
+    right: 66px;
+  }
+  .plus-5 {
+    position: absolute;
+    top: -566px;
+    right: 14px;
+    
+  }
+  .plus-6 {
+    position: absolute;
+    right: 62px;
+    bottom: 430px;
+    
+  }
+  .attention {
+    margin: 40px auto 65px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .attention img {
+    width: 95px;
+    height: 92px;
+  }
+  .attention span {
+    font-size:10px;
+  }
+  .make {
+    width: auto;
+    height: auto;
+  }
+  .section-submit {
+    width: auto;
+    height: auto;
+  }
+  .section-header {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+  }
+  .section-submit p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .lower-input {
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .input-1 {
+    width: 233px;
+    height: 57px;
+  }
+  .input-img {
+    width: 22.15px;
+    align-items: center;
+  }
+  .input-2 {
+    width: 233px;
+    height: 57px;
+    border-radius: 8px;
+  }
+  .input-button {
+    width: 233px;
+  }
+  .input-button button {
+    font-size: 19px;
+  }
+  .lower-photo {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .lower-footer {
+    width: 320px;
+    height: 568px;
+  }
+  .lower-dentist {
+    margin: 0;
+  }
+  .logo-tooth {
+    width: 303.28px;
+    height: 64.91px;
+    margin: 30px 8.72px 473.09px 8px;
+  }
+  
+  .DR {
+    width: 50.61px;
+    height: 56.15px;
+  }
+  .tooth-text {
+    width: 210px;
+  }
+  .DR {
+    width: 210px;
+    height: 38px;
+    font-size: 27px;
+    line-height: 140%;
+    margin-left: 0;
+  }
+  .den {
+    font-size: 19.15px;
+    line-height: 140%;
+    color: #0F2D4A;
+    margin-left: 0;
+  }
+  .link-text {
+    position: relative;
+  }
+  .lower-link {
+  position: absolute;
+  top: -460px;
+  margin-top: 21.4px;
+  margin-left: 8px;
+  gap: 20.43px;
+  }
+  .link-1 {
+    font-size: 14px;
+    line-height: 135%;
+    color: #0F2D4A;
+  }
+  .link-2 {
+    font-size: 14.26px;
+    line-height: 135%;
+    color: #FFFFFF;
+  }
+  .lower-languages {
+    width: 53px;
+    height: 16px;
+    gap: 7px;
+  }
+  .link-3 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 3px;
+  }
+  .link-4 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 3px;
+  }
+  .footer-text {
+    position: absolute;
+    top: -460px;
+    margin-top: 47.79px;
+    font-size: 14.26px;
+  }
+  .working {
+    font-size: 14.26px;
+    line-height: 17px;
+    color: #0F2D4A;
+    font-weight: 600;
+  }
+  .contacts-wrapper {
+    position: relative;
+  }
+  .contacts {
+    position: absolute;
+    top: 175px;
+    left: -320px;
+    margin-top: 44px;
+  }
+  .con {
+    margin-left: 12px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .New-York {
+    margin-left: 10px;
+    margin-top: 26.48px;
+    font-size: 17.16px;
+    line-height: 135%;
+    font-weight: 400px;
+  }
+  .phonepng {
+    margin-top: 25.9px;
+    margin-left: 11.72px;
+    gap: 12.87px;
+  }
+  .phone-png img {
+    width: 24.03px;
+    height: 24.03px;
+    
+  }
+  .phone-png-1 {
+    font-size: 17.16px;
+    line-height: 135%;
+  }
+  .vtw {
+    display: none;
+  }
+  .insta {
+    margin-left: 12.57px;
+    gap: 14.59px;
+  }
+  .insta img {
+    width: 23.17px;
+    height: 23.17px;
+  }
+  .NikTes {
+    font-size: 17.16px;
+    line-height: 135%;
+  }
+  .mail {
+    margin-left: 10px;
+    gap: 13.73px;
+  }
+  .mail img {
+    width: 27.46px;
+    height: 27.46px;
+  }
+  .mail-1 {
+    font-size: 17.16px;
+    line-height: 135%;
+  }
+  .copyright {
+    margin-top: 7px;
+  }
+  .copyright1 {
+    font-size: 11.15px;
+    line-height: 130%;
+  }
+  }
